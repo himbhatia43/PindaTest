@@ -1,4 +1,4 @@
-<widget id="ips.com.pinda" version="01" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="ips.com.pinda" version="02" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Pinda Testing</name>
     <description>
      Pinda meani Parvinder Kumar Bhardwaj. I am Post Graduated and I ahave been working as Web designer at Infotech Professional Solutionz Pvt Ltd.
@@ -8,7 +8,7 @@
     </author>
 	<preference name="BackupWebStorage" value="none" />
     <preference name="permissions" value="none" />
-    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
@@ -23,6 +23,7 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
+	<gap:plugin name="cordova-plugin-camera" source="npm" />
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
